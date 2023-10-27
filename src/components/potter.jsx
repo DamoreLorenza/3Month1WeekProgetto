@@ -43,11 +43,22 @@ render() {
     <Container className=" ms-lg-5">
       <Row>
         {this.state.HarryPotter.map((movie) =>{
-          return <Col xs={6} md={4} lg={2} className="" key={movie.imdbID}>
+
+           if (movie.imdbID
+            !==
+            "tt1756545" & movie.imdbID
+            !==
+            "tt16116174" & movie.imdbID
+            !==
+            "tt0330373" & movie.imdbID
+            !==
+            
+"tt1201607"){
+          return (<Col xs={6} md={4} lg={2} className="" key={movie.imdbID}>
            <Card.Img  src={movie.Poster} className="imm"/>
           
         </Col>
-
+             ) }
         })
         }
        

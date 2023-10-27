@@ -44,13 +44,21 @@ render() {
     <Container className=" ms-lg-5">
       <Row>
         {this.state.HungerGames.map((movie) =>{
+          if (movie.imdbID
+            !==
+            "tt2327114" & movie.imdbID
+            !==
+            "tt3413318" & movie.imdbID
+            !==
+            "tt2858204" & movie.imdbID
+            !=="tt2427488"){
           return <Col xs={6} md={4} lg={2} className="" key={movie.imdbID}>
             <Card>
           <Card.Img  src={movie.Poster} className="imm"/>
           
           </Card>
         </Col>
-
+            }
         })
         }
        

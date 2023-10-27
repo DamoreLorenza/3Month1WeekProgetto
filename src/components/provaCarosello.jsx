@@ -34,7 +34,7 @@ class SpiderMan extends Component {
   
     render() {
       return (
-        <Container className=" justify-content-start">
+        <Container className=" justify-content-start mb-5">
             <h4 className="ms-3 mb-4 text-white ">SpiderMan Saga</h4>
           <Carousel>
             {this.state.spider.map((movie, index) => {

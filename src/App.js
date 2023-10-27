@@ -18,10 +18,10 @@ function App() {
       <NavBarra/>
       </header>
       <Section/>
-      <SpiderMan/>
       <Potter/>
       <StarWars/>
       <Hunger/>
+      <SpiderMan/>
       <Footer/>
     </div>
   );

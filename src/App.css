@@ -24,6 +24,7 @@
 
 .carousel-item {
   height: 300px;
+  margin-right: 3em;
 }
 
 .carousel-caption {
@@ -33,9 +34,5 @@
 }
 
 .carousel-caption h3 {
-  color: white;
-}
-
-#prova{
-  margin-right: 2em !important;
+  color: black;
 }

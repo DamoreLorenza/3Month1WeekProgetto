@@ -43,10 +43,21 @@ render() {
     <Container className=" ms-lg-5">
       <Row>
         {this.state.SW.map((movie) =>{
+          if (movie.imdbID
+            !==
+            "tt2527338" & movie.imdbID
+            !==
+            "tt2527336" & movie.imdbID
+            !==
+            "tt3748528" & movie.imdbID
+            !=="tt1201607" &
+            movie.imdbID
+            !==
+            "tt0121765"){
           return <Col xs={6} md={4} lg={2} className="" key={movie.imdbID}>
           <Card.Img  src={movie.Poster} className="imm"/>
         </Col>
-
+}
         })
         }
        
